@@ -112,7 +112,7 @@
 						<div>
 							<p><strong>A simple tower defense game I made to learn more about pathfinding algorithms.
 									The player places ships down to defeat enemy ships. If the enemy ships attack your
-									main ship and you have no more gold the game ends. </strong> </p>
+									main ship when you have no more gold, the game ends. </strong> </p>
 						</div>
 						<section class="colorlib-experience" data-section="experience">
 							<div class="colorlib-narrow-content">
@@ -134,8 +134,8 @@
 													</div>
 													<div class="timeline-label">
 														<h2><a href="#">Player</a> <span></span></h2>
-														<p>To play a ship down the game checks if the tile is placeable
-															or walkable then if you have enough gold, you can place a
+														<p>To place a ship down, the game checks if the tile is placeable
+															or walkable. Then, if you have enough gold, you can place a
 															ship.</p>
 													</div>
 												</div>
@@ -148,12 +148,12 @@
 													</div>
 													<div class="timeline-label">
 														<h2><a href="#">Enemies</a> <span></span></h2>
-														<p>The enemies follow a path from a start point and end point
-															that is manually set. If the enemy reached the main ship, it
-															would take some gold away. Instead of destroying the game
-															object of the enemy ships I am using an object pool. This
+														<p>The enemies follow a path from a start point to an end point,
+															which are manually set. If the enemy reaches the main ship, it
+															will take some gold away. Instead of destroying the game
+															object of the enemy ships, I am using an object pool. This
 															takes the prefab of the enemy ship and sets active true,
-															when destroyed it sets active false. This helps the game
+															when "destroyed" it sets active false. This helps the game
 															preform better if I wanted to expand the world or the number
 															of ships that spawn. </p>
 													</div>
@@ -170,10 +170,8 @@
 														<h2><a href="#">Pathfinding</a> <span></span></h2>
 														<p>I'm using the breadth first search algorithm to create the
 															path the enemies will take. I used this algorithm because it
-															is a good base start to any pathfinding algorithm and if I
-															want to expand, I can build off what I have now. I also
-															choose it because I don’t need the algorithm to run fast and
-															have time to search all the tiles in the scene. </p>
+															is a good foundation to any pathfinding algorithm, and if I
+															want to expand, I can build off what I have now. </p>
 														<div class="snippets"
 															style="background-image: url(images/PiratePathGIF.gif);">
 														</div>
